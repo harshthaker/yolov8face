@@ -8,7 +8,7 @@ with open(os.path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='yolov8face',
-    version='0.0.1',
+    version='0.0.2',
     description='A wrapper to YOLOv8 face detector.',
     long_description=long_description,
     long_description_content_type='text/markdown',
