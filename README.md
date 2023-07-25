@@ -11,7 +11,8 @@ from yolov8face import get_bbox
 bboxes = get_bbox('path-to-image/image.jpg')
 ```
 ## Example
-![can't load example image](detected_faces.png "face detected")
+![can't load example image](https://raw.githubusercontent.com/harshthaker/yolov8face/main/detected_faces.png)
+
 
 ## License
 
