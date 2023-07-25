@@ -1,3 +1,5 @@
+LICENSE
+README.md
 setup.py
 yolov8face.egg-info/PKG-INFO
 yolov8face.egg-info/SOURCES.txt
