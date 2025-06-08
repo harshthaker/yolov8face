@@ -22,6 +22,17 @@ from yolov8face import get_bbox
 bboxes = get_bbox("path/to/image.jpg")
 ```
 
+## Command Line Interface
+
+After installing the package you can run face detection directly from the
+command line:
+
+```bash
+yolov8face path/to/image.jpg
+```
+
+The command prints the detected bounding boxes to the terminal.
+
 ## Example
 
 ![Detected faces](https://raw.githubusercontent.com/harshthaker/yolov8face/main/detected_faces.png)
