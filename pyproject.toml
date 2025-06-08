@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yolov8face"
+version = "0.1.1"
+description = "YOLOv8Face provides a simple interface for Ultralytics face detection"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "yolov8face contributors"}]
+requires-python = ">=3.8"
+dependencies = [
+    "ultralytics"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+package-dir = {"" = "."}
+packages = ["yolov8face"]
+
